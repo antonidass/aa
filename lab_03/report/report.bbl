@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Knut}
+\selectlanguageifdefined{russian}
+Кнут~Дональд. Сортировка и поиск.
+\newblock Вильямс, 2000.
+\newblock Т.~3 {из} \BibEmph{Искусство
+  программирования}.
+\newblock {с.}~834.
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i7-8550U [Электронный
+  ресурс].
+\newblock Режим доступа:
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}
+  (дата обращения: 21.09.2020).
+
+\end{thebibliography}

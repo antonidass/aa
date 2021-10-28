@@ -1,0 +1,119 @@
+\chapter{Технологическая часть}
+
+В данном разделе приведены средства реализации и листинг кода.
+
+\section{Требования к ПО}
+
+К программе предъявляется ряд требований:
+\begin{itemize}
+	\item на вход подаются размеры 2 матриц, а также их элементы;
+	\item на выходе — матрица, которая является результатом умножения входных матриц.
+\end{itemize}
+
+\section{Средства реализации}
+
+В качестве языка программирования был выбран ЯП Java. Данный выбор обусловлен тем, что данный язык легок в использовании, быстр и поддерживает кроссплатформенность.
+
+\section{Листинг кода}
+
+\begin{lstinputlisting}[
+	caption={Стандартный алгоритм умножения матриц},
+	label={lst:simple},
+	style={javalang},
+	linerange={5-24}
+]{../src/lib/Main.java}
+\end{lstinputlisting}
+
+\begin{lstinputlisting}[
+	caption={Алгоритм Копперсмита — Винограда},
+	label={lst:vino},
+	style={javalang},
+	linerange={26-69}
+]{../src/lib/Main.java}
+\end{lstinputlisting}
+
+\section{Тестирование функций}
+
+В таблице~\ref{tabular:test_rec} приведены тесты для функций, реализующих стандартный алгоритм умножения матриц и алгоритм Винограда. Тесты пройдены успешно.
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}}
+			\hline
+			Матрица 1 & Матрица 2 &Ожидаемый результат \\ \hline
+			\vspace{4mm}
+			$\begin{pmatrix}
+			1 & 1 & 1\\
+			2 & 2 & 2\\
+			3 & 3 & 3
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			2 & 2 & 2\\
+			3 & 3 & 3\\
+			1 & 1 & 1
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			6 & 6 & 6\\
+			12 & 12 & 12\\
+			18 & 18 & 18
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			$\begin{pmatrix}
+            1 & 5 & 5\\
+            1 & 5 & 5
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			1 & 3\\
+			1 & 3\\
+            1 & 3
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			11 & 33\\
+			11 & 33
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			$\begin{pmatrix}
+			2
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			2
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			4
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			$\begin{pmatrix}
+			1 & -2 & 3\\
+			1 & 2 & 3\\
+			1 & 2 & 3
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			-1 & 2 & 3\\
+			1 & 2 & 3\\
+			1 & 2 & 3
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			0 & 4 & 6\\
+			4 & 12 & 18\\
+			4 & 12 & 18
+			\end{pmatrix}$\\
+			\vspace{2mm}
+			\vspace{2mm}
+			$\begin{pmatrix}
+			111 & 222
+			\end{pmatrix}$ &
+			$\begin{pmatrix}
+			4 & 0
+			\end{pmatrix}$ &
+			Не могут быть перемножены\\
+		\end{tabular}
+	\end{center}
+	\caption{\label{tabular:test_rec} Тестирование функций}
+\end{table}
+
+\section*{Вывод}
+
+Правильный выбор инструментов разработки позволил эффективно реализовать алгоритмы, настроить модульное тестирование и выполнить исследовательский раздел лабораторной работы.

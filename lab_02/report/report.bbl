@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Coppersmith}
+\selectlanguageifdefined{english}
+Coppersmith~D., Winograd~S. Matrix multiplication via arithmetic
+  progressions~// Journal of Symbolic Computation.
+\newblock 1990.
+\newblock no.~9.
+\newblock P.~251--280.
+
+\bibitem{Cohn}
+\selectlanguageifdefined{english}
+Group-theoretic Algorithms for Matrix Multiplication~/ H.~Cohn, R.~Kleinberg,
+  B.~Szegedy et~al.~// Proceedings of the 46th Annual Symposium on Foundations
+  of Computer Science.
+\newblock 2005.  October.
+\newblock P.~379--388.
+
+\bibitem{Pogorelov}
+\selectlanguageifdefined{russian}
+Погорелов Дмитрий~Александрович~Таразанов
+  Артемий~Михайлович~Волкова
+  Лилия~Леонидовна. Оптимизация
+  классического алгоритма Винограда для
+  перемножения матриц~// Журнал №1.
+\newblock 2019.
+\newblock Т.~49.
+
+\end{thebibliography}

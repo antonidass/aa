@@ -1,0 +1,110 @@
+\chapter{Конструкторская часть}
+
+\section{Разработка алгоритмов}
+
+%\clearpage
+\img{170mm}{d1}{Стандартный алгоритм заполнения матриц}
+
+
+\img{170mm}{d2}{Cхема алгоритма Копперсмита — Винограда}
+\clearpage
+\img{170mm}{d3}{Cхема алгоритма Копперсмита — Винограда}
+
+\section{Модель вычислений}
+
+Для последующего вычисления трудоемкости необходимо ввести модель вычислений:
+\begin{enumerate}
+    \item операции из списка (\ref{for:opers}) имеют трудоемкость 1;
+        \begin{equation}
+            \label{for:opers}
+            +, -, /, \%, ==, !=, <, >, <=, >=, [], ++, {-}-
+        \end{equation}
+    \item трудоемкость оператора выбора \code{if условие then A else B} рассчитывается, как (\ref{for:if});
+	\begin{equation}
+        \label{for:if}
+        f_{if} = f_{\text{условия}} +
+        \begin{cases}
+        f_A, & \text{если условие выполняется,}\\
+        f_B, & \text{иначе.}
+        \end{cases}
+	\end{equation}
+\item трудоемкость цикла рассчитывается, как (\ref{for:for});
+    \begin{equation}
+        \label{for:for}
+        f_{for} = f_{\text{инициализации}} + f_{\text{сравнения}} + N(f_{\text{тела}} + f_{\text{инкремента}} + f_{\text{сравнения}})
+    \end{equation}
+	\item трудоемкость вызова функции равна 0.
+\end{enumerate}
+
+\section{Трудоемкость алгоритмов}
+
+\subsection{Стандартный алгоритм умножения матриц}
+
+Во всех последующих алгоритмах не будем учитывать инициализацию матрицу, в которую записывается результат, потому что данное действие есть во всех алгоритмах и при этом не является самым трудоёмким.
+
+Трудоёмкость стандартного алгоритма умножения матриц состоит из:
+\begin{itemize}
+    \item внешнего цикла по $i \in [1..n]$, трудоёмкость которого: $f = 2 + n \cdot (2 + f_{body})$;
+    \item цикла по $j \in [1..m]$, трудоёмкость которого: $f = 2 + m \cdot (2 + f_{body})$;
+    \item цикла по $k \in [1..q]$, трудоёмкость которого: $f = 2 + 10q$;
+\end{itemize}
+
+Учитывая, что трудоёмкость стандартного алгоритма равна трудоёмкости внешнего цикла, можно вычислить ее, подставив циклы тела (\ref{for:standard}):
+\begin{equation}
+    \label{for:standard}
+    f_{standard} = 2 + n \cdot (4 + m \cdot (4 + 10q)) = 2 + 4n + 4nm + 10nmq \approx 10nmq
+\end{equation}
+
+\subsection{Алгоритм Копперсмита — Винограда}
+
+Трудоёмкость алгоритма Копперсмита — Винограда состоит из:
+\begin{enumerate}
+    \item создания и инициализации массивов tempA и tempB, трудоёмкость которого (\ref{for:init}):
+        \begin{equation}
+            \label{for:init}
+        f_{init} = n + m;
+        \end{equation}
+
+    \item заполнения массива tempA, трудоёмкость которого (\ref{for:MH}):
+        \begin{equation}
+            \label{for:MH}
+        f_{tempA} = 3 + \frac{q}{2} \cdot (5 + 12n);
+        \end{equation}
+
+    \item заполнения массива tempB, трудоёмкость которого (\ref{for:MV}):
+        \begin{equation}
+            \label{for:MV}
+        f_{tempB} = 3 + \frac{q}{2} \cdot (5 + 12m);
+        \end{equation}
+
+    \item цикла заполнения для чётных размеров, трудоёмкость которого (\ref{for:cycle}):
+        \begin{equation}
+            \label{for:cycle}
+        f_{cycle} = 2 + n \cdot (4 + m \cdot (11 + \frac{25}{2} \cdot q));
+        \end{equation}
+
+    \item цикла, для дополнения умножения суммой последних нечётных строки и столбца, если общий размер нечётный, трудоемкость которого (\ref{for:last}):
+        \begin{equation}
+            \label{for:last}
+            f_{last} = \begin{cases}
+                2, & \text{чётная,}\\
+                4 + n \cdot (4 + 14m), & \text{иначе.}
+            \end{cases}
+        \end{equation}
+\end{enumerate}
+
+Итого, для худшего случая (нечётный общий размер матриц) имеем (\ref{for:bad}):
+\begin{equation}
+    \label{for:bad}
+    f = n + m + 12 + 8n + 5q + 6nq + 6mq + 25nm + \frac{25}{2}nmq \approx 12.5 \cdot nmq
+\end{equation}
+
+Для лучшего случая (чётный общий размер матриц) имеем (\ref{for:good}):
+\begin{equation}
+    \label{for:good}
+    f = n + m + 10 + 4n + 5q + 6nq + 6mq + 11nm + \frac{25}{2}nmq \approx 12.5 \cdot nmq
+\end{equation}
+
+\section*{Вывод}
+
+На основе теоретических данных, полученных из аналитического раздела, были построены схемы обоих алгоритмов умножения матриц.  Оценены их трудоёмкости в лучшем и худшем случаях.

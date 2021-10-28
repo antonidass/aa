@@ -1,0 +1,65 @@
+\chapter{Аналитическая часть}
+
+Для преобразования одного слова в другое используются следующие операции:
+
+\begin{itemize}
+	\item D - удаление
+	\item I - вставка
+	\item R - замена
+\end{itemize}
+
+Будем считать стоимость каждой вышеизложенной операции - 1.  
+Введем понятие совпадения - M. Его стоимость будет равна - 0.
+
+
+
+\section{Расстояние Левенштейна}
+
+Расстояние Левенштейна между двумя строками a и b может быть вычислено по формуле:
+\begin{equation}
+	\label{eq:D}
+	D(i, j) = \begin{cases}
+		0 &\text{i = 0, j = 0}\\
+		i &\text{j = 0, i > 0}\\
+		j &\text{i = 0, j > 0}\\
+		\min \lbrace \\
+			\qquad D(i, j-1) + 1\\
+			\qquad D(i-1, j) + 1 &\text{i > 0, j > 0}\\
+			\qquad D(i-1, j-1) + m(a[i], b[j]) &\text(\ref{eq:m})\\
+		\rbrace
+	\end{cases},
+\end{equation}
+
+где функция \ref{eq:m} определена как:
+\begin{equation}
+	\label{eq:m}
+	m(a, b) = \begin{cases}
+		0 &\text{если a = b,}\\
+		1 &\text{иначе}
+	\end{cases}.
+\end{equation}
+
+
+\section{Расстояние Дамерау — Левенштейна}
+В расстоянии Дамерау - Левенштейна задействуют еще одну операцию - транспозицию T.
+Расстояние Дамерау — Левенштейна может быть найдено по формуле \ref{eq:d}.
+\begin{equation}
+	\label{eq:d}
+	D_{a,b}(i, j) = \begin{cases}
+		\max(i, j), &\text{если }\min(i, j) = 0,\\
+		\min \lbrace \\
+			\qquad D_{a,b}(i, j-1) + 1,\\
+			\qquad D_{a,b}(i-1, j) + 1,\\
+			\qquad D_{a,b}(i-1, j-1) + m(a[i], b[j]), &\text{иначе}\\
+			\qquad \left[ \begin{array}{cc}D_{a,b}(i-2, j-2) + 1, &\text{если }i,j > 1;\\
+			\qquad &\text{}a[i] = b[j-1]; \\
+			\qquad &\text{}b[j] = a[i-1]\\
+			\qquad \infty, & \text{иначе}\end{array}\right.\\
+		\rbrace
+		\end{cases},
+\end{equation}
+
+
+\section*{Вывод}
+
+Формулы Левенштейна и Дамерау — Левенштейна для рассчета расстояния между строками задаются рекурсивно, а следовательно, алгоритмы могут быть реализованы рекурсивно или итерационно.
