@@ -15,12 +15,31 @@
   программирования}.
 \newblock {с.}~834.
 
+\bibitem{kernigan}
+\selectlanguageifdefined{russian}
+Брайан~Керниган~Деннис~Ритчи. Язык
+  программирования Си.
+\newblock Деннис Ритчи, 1978.
+\newblock Т.~1 {из} \BibEmph{Введение}.
+\newblock {с.}~9.
+
+\bibitem{vscode}
+\selectlanguageifdefined{russian}
+Documentation for Visual Studio Code [Электронный ресурс].
+\newblock Режим доступа: \url{https://code.visualstudio.com/docs}.
+
+\bibitem{windows}
+\selectlanguageifdefined{russian}
+Клиентская документация по Windows для
+  ИТ-специалистов [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://docs.microsoft.com/ru-ru/windows/resources/}.
+
 \bibitem{intel}
 \selectlanguageifdefined{russian}
-Процессор Intel® Core™ i7-8550U [Электронный
+Процессор Intel® Core™ i7-4700HQ [Электронный
   ресурс].
 \newblock Режим доступа:
-  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}
-  (дата обращения: 21.09.2020).
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}.
 
 \end{thebibliography}

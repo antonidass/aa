@@ -109,35 +109,78 @@ double count_time_insertion_sort(int array[], int n)
 }
 
 
+double count_time_choice_sort(int array[], int n) 
+{
+    clock_t start, end;    
+
+    start = clock();
+    choice_sort(array, n);
+    end = clock();
+
+    return  (double)(end - start) / CLOCKS_PER_SEC;
+}
+
+double count_time_quick_sort(int array[], int n) 
+{
+    clock_t start, end;    
+
+    start = clock();
+    quick_sort(array, 0, n);
+    end = clock();
+
+    return  (double)(end - start) / CLOCKS_PER_SEC;
+}
+
+
+
+int *generate_array(int size)
+{
+    int *arr = (int *) malloc(sizeof(int) * size);
+    for (int i = 0; i < size; i++)
+    {
+        arr[i] = rand() % 10000;
+    }
+    return arr;
+}
+
+
+void write_file(FILE *file, double times[], int n)
+{
+    for (int i = 0; i <= n - 1; i++)
+    {
+        fprintf(file, "%lf,%d\n", times[i], i * 10);
+    }
+}
+
+void count_times(FILE *file, double (*fun)(int *, int))
+{
+    double times[100]; 
+    for (int i = 1, j = 0; i < 1000; i += 10, j++)
+    {
+        int *arr = generate_array(i);
+        double time = fun(arr, i);
+        times[j] = time;
+        free(arr);
+    }  
+    write_file(file, times, 100);
+}
+
+
+
 
 int main()
 {
-    // int n;
-    // printf("Input size of array: ");
-    // scanf("%d", &n);
+    FILE *file = fopen("quick.txt", "w");
+    count_times(file, count_time_quick_sort);
+    fclose(file);
 
-    // int *arr = input_array(n);
+    FILE *file1 = fopen("choice.txt", "w");
+    count_times(file1, count_time_choice_sort);
+    fclose(file1);
 
-
-    int arr[] = {4,2,2,1,5,7,1,5,1};
-    int n = 9;
-
-    double time = 0;
-    for (int i = 0; i < 10000; i++) 
-    {
-        int arr[] = {4,2,2,1,5,7,1,5,1};
-        int n = 9;
-        time += count_time_insertion_sort(arr, n);
-    }
-
-    printf("%lf", time);
-
-
-
-    print_array(arr, &n);
-
-
-    // free(arr);
+    FILE *file2 = fopen("insert.txt", "w");
+    count_times(file2, count_time_insertion_sort);
+    fclose(file2);
 
     return 0;
 }

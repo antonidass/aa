@@ -22,11 +22,11 @@ sort_insert =  [0.0008, 0.0088, 0.0242, 0.0511, 0.1159]
 
 fig, ax = plt.subplots()
 
-ax.plot(lenArr, sort_bubble, label="Choice", color='green')
+ax.plot(lenArr, sort_bubble, label="Выбором", color='green')
 
-ax.plot(lenArr, sort_insert, label="Insertion", color='red')
+ax.plot(lenArr, sort_insert, label="Вставками", color='red')
 
-ax.plot(lenArr, sort_quick_recursion, label="Quick", color='blue')
+ax.plot(lenArr, sort_quick_recursion, label="Быстрая", color='blue')
 
 ax.legend()
 ax.grid()
