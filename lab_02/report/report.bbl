@@ -33,4 +33,18 @@ Group-theoretic Algorithms for Matrix Multiplication~/ H.~Cohn, R.~Kleinberg,
 \newblock 2019.
 \newblock Т.~49.
 
+\bibitem{windows}
+\selectlanguageifdefined{russian}
+Клиентская документация по Windows для
+  ИТ-специалистов [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://docs.microsoft.com/ru-ru/windows/resources/}.
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i7-4700HQ [Электронный
+  ресурс].
+\newblock Режим доступа:
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}.
+
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.29)  30 OCT 2021 01:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.29)  6 NOV 2021 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,6 +412,22 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen167
+\captionmargin@=\dimen168
+\captionwidth=\dimen169
+\caption@tempdima=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: listings package is loaded.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -425,12 +441,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen167
-\Gin@req@width=\dimen168
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen169
-\pgfutil@tempdimb=\dimen170
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box52
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -445,26 +461,26 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen171
-\pgf@y=\dimen172
-\pgf@xa=\dimen173
-\pgf@ya=\dimen174
-\pgf@xb=\dimen175
-\pgf@yb=\dimen176
-\pgf@xc=\dimen177
-\pgf@yc=\dimen178
-\pgf@xd=\dimen179
-\pgf@yd=\dimen180
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
+\pgf@xd=\dimen186
+\pgf@yd=\dimen187
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count279
-\c@pgf@countb=\count280
-\c@pgf@countc=\count281
-\c@pgf@countd=\count282
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count283
+\pgf@sys@id@count=\count285
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
@@ -475,59 +491,59 @@ File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count284
-\pgfsyssoftpath@bigbuffer@items=\count285
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen181
-\pgfmath@count=\count286
+\pgfmath@dimen=\dimen188
+\pgfmath@count=\count288
 \pgfmath@box=\box53
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count287
+\c@pgfmathroundto@lastzeros=\count289
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen182
-\pgf@picmaxx=\dimen183
-\pgf@picminy=\dimen184
-\pgf@picmaxy=\dimen185
-\pgf@pathminx=\dimen186
-\pgf@pathmaxx=\dimen187
-\pgf@pathminy=\dimen188
-\pgf@pathmaxy=\dimen189
-\pgf@xx=\dimen190
-\pgf@xy=\dimen191
-\pgf@yx=\dimen192
-\pgf@yy=\dimen193
-\pgf@zx=\dimen194
-\pgf@zy=\dimen195
+\pgf@picminx=\dimen189
+\pgf@picmaxx=\dimen190
+\pgf@picminy=\dimen191
+\pgf@picmaxy=\dimen192
+\pgf@pathminx=\dimen193
+\pgf@pathmaxx=\dimen194
+\pgf@pathminy=\dimen195
+\pgf@pathmaxy=\dimen196
+\pgf@xx=\dimen197
+\pgf@xy=\dimen198
+\pgf@yx=\dimen199
+\pgf@yy=\dimen256
+\pgf@zx=\dimen257
+\pgf@zy=\dimen258
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen196
-\pgf@path@lasty=\dimen197
+\pgf@path@lastx=\dimen259
+\pgf@path@lasty=\dimen260
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen198
-\pgf@shorten@start@additional=\dimen199
+\pgf@shorten@end@additional=\dimen261
+\pgf@shorten@start@additional=\dimen262
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count288
+\pgf@picture@serial@count=\count290
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen256
+\pgflinewidth=\dimen263
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen257
-\pgf@pt@y=\dimen258
-\pgf@pt@temp=\dimen259
+\pgf@pt@x=\dimen264
+\pgf@pt@y=\dimen265
+\pgf@pt@temp=\dimen266
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -536,12 +552,12 @@ File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen260
+\pgfarrowsep=\dimen267
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count289
-\pgf@shadingcount=\count290
+\pgf@max=\dimen268
+\pgf@sys@shading@range@num=\count291
+\pgf@shadingcount=\count292
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -562,83 +578,83 @@ File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen262
-\pgf@nodesepend=\dimen263
+\pgf@nodesepstart=\dimen269
+\pgf@nodesepend=\dimen270
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen264
-\pgffor@skip=\dimen265
+\pgffor@iter=\dimen271
+\pgffor@skip=\dimen272
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count291
-\pgfplotmarksize=\dimen266
+\pgf@plot@mark@count=\count293
+\pgfplotmarksize=\dimen273
 )
-\tikz@lastx=\dimen267
-\tikz@lasty=\dimen268
-\tikz@lastxsaved=\dimen269
-\tikz@lastysaved=\dimen270
-\tikz@lastmovetox=\dimen271
-\tikz@lastmovetoy=\dimen272
-\tikzleveldistance=\dimen273
-\tikzsiblingdistance=\dimen274
+\tikz@lastx=\dimen274
+\tikz@lasty=\dimen275
+\tikz@lastxsaved=\dimen276
+\tikz@lastysaved=\dimen277
+\tikz@lastmovetox=\dimen278
+\tikz@lastmovetoy=\dimen279
+\tikzleveldistance=\dimen280
+\tikzsiblingdistance=\dimen281
 \tikz@figbox=\box59
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count292
-\tikznumberofchildren=\count293
-\tikznumberofcurrentchild=\count294
-\tikz@fig@count=\count295
+\tikztreelevel=\count294
+\tikznumberofchildren=\count295
+\tikznumberofcurrentchild=\count296
+\tikz@fig@count=\count297
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count296
-\pgfmatrixcurrentcolumn=\count297
-\pgf@matrix@numberofcolumns=\count298
+\pgfmatrixcurrentrow=\count298
+\pgfmatrixcurrentcolumn=\count299
+\pgf@matrix@numberofcolumns=\count300
 )
-\tikz@expandcount=\count299
+\tikz@expandcount=\count301
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks38
 \t@pgfplots@tokb=\toks39
 \t@pgfplots@tokc=\toks40
-\pgfplots@tmpa=\dimen275
-\c@pgfplots@coordindex=\count300
-\c@pgfplots@scanlineindex=\count301
+\pgfplots@tmpa=\dimen282
+\c@pgfplots@coordindex=\count302
+\c@pgfplots@scanlineindex=\count303
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count302
+\c@pgfplotsarray@tmp=\count304
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count303
+\c@pgfplotstable@counta=\count305
 \t@pgfplotstable@a=\toks41
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count304
- (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen276
-\pgfdecoratedremainingdistance=\dimen277
-\pgfdecoratedinputsegmentcompleteddistance=\dimen278
-\pgfdecoratedinputsegmentremainingdistance=\dimen279
-\pgf@decorate@distancetomove=\dimen280
-\pgf@decorate@repeatstate=\count305
-\pgfdecorationsegmentamplitude=\dimen281
-\pgfdecorationsegmentlength=\dimen282
+\c@pgfplotslibrarysurf@no=\count306
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen283
+\pgfdecoratedremainingdistance=\dimen284
+\pgfdecoratedinputsegmentcompleteddistance=\dimen285
+\pgfdecoratedinputsegmentremainingdistance=\dimen286
+\pgf@decorate@distancetomove=\dimen287
+\pgf@decorate@repeatstate=\count307
+\pgfdecorationsegmentamplitude=\dimen288
+\pgfdecorationsegmentlength=\dimen289
 )
 \tikz@lib@dec@box=\box63
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count306
-\pgfplots@xmin@reg=\dimen283
-\pgfplots@xmax@reg=\dimen284
-\pgfplots@ymin@reg=\dimen285
-\pgfplots@ymax@reg=\dimen286
-\pgfplots@zmin@reg=\dimen287
-\pgfplots@zmax@reg=\dimen288
+\pgfplots@numplots=\count308
+\pgfplots@xmin@reg=\dimen290
+\pgfplots@xmax@reg=\dimen291
+\pgfplots@ymin@reg=\dimen292
+\pgfplots@ymax@reg=\dimen293
+\pgfplots@zmin@reg=\dimen294
+\pgfplots@zmax@reg=\dimen295
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -648,39 +664,23 @@ File: tikzlibrarydatavisualization.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledatavisualization.code.tex
 File: pgfmoduledatavisualization.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.tex
-\pgfoo@objectcount=\count307
-\pgfoothis@count=\count308
+\pgfoo@objectcount=\count309
+\pgfoothis@count=\count310
 \pgfoo@toks=\toks42
 )
-\pgf@lib@dv@cache@count=\count309
-\pgf@lib@dv@cache@count=\count310
+\pgf@lib@dv@cache@count=\count311
+\pgf@lib@dv@cache@count=\count312
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@layerbox@background=\box64
 \pgf@layerboxsaved@background=\box65
 )
-\tikzdvvisualizercounter=\count311
+\tikzdvvisualizercounter=\count313
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.formats.functions.code.tex
 File: tikzlibrarydatavisualization.formats.functions.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/datavisualization/pgflibrarydatavisualization.formats.functions.code.tex
 File: pgflibrarydatavisualization.formats.functions.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen289
-\captionmargin@=\dimen290
-\captionwidth=\dimen291
-\caption@tempdima=\dimen292
-\caption@indent=\dimen293
-\caption@parindent=\dimen294
-\caption@hangindent=\dimen295
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
-Package caption Info: listings package is loaded.
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
  (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -886,13 +886,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
  on input line 5.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 5.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -948,7 +949,7 @@ Package geometry Warning: `pdftex': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<assets/img/b_logo.jpg, id=92, 57.816pt x 65.3715pt>
+<assets/img/b_logo.jpg, id=104, 57.816pt x 65.3715pt>
 File: assets/img/b_logo.jpg Graphic file (type jpg)
 <use assets/img/b_logo.jpg>
 Package pdftex.def Info: assets/img/b_logo.jpg  used on input line 5.
@@ -1045,8 +1046,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--30
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \include{01-contents}
-                          [1
+l.11 \include{01-contents}
+                           [1
 
 
 
@@ -1075,12 +1076,12 @@ l.8 \include{01-contents}
 
  (/Users/akrik/Desktop/aa/lab_02/report/20-design.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<assets/img/d1.jpg, id=167, 332.24126pt x 522.95375pt>
+<assets/img/d1.jpg, id=183, 332.24126pt x 522.95375pt>
 File: assets/img/d1.jpg Graphic file (type jpg)
 <use assets/img/d1.jpg>
 Package pdftex.def Info: assets/img/d1.jpg  used on input line 6.
 (pdftex.def)             Requested size: 307.3082pt x 483.69684pt.
-<assets/img/d2.jpg, id=168, 516.93124pt x 594.22pt>
+<assets/img/d2.jpg, id=184, 516.93124pt x 594.22pt>
 File: assets/img/d2.jpg Graphic file (type jpg)
 <use assets/img/d2.jpg>
 Package pdftex.def Info: assets/img/d2.jpg  used on input line 9.
@@ -1094,17 +1095,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  </Users/akrik/Desktop/aa/lab_02/report/assets/img/d1.jpg>] [6 </Users/akrik/Desktop/aa/lab_02/report/assets/img/d2.jpg>]
-<assets/img/d3.jpg, id=181, 353.32pt x 603.25375pt>
+<assets/img/d3.jpg, id=196, 605.26125pt x 613.29124pt>
 File: assets/img/d3.jpg Graphic file (type jpg)
 <use assets/img/d3.jpg>
 Package pdftex.def Info: assets/img/d3.jpg  used on input line 11.
-(pdftex.def)             Requested size: 283.29254pt x 483.69684pt.
+(pdftex.def)             Requested size: 477.3661pt x 483.69684pt.
+
+Overfull \hbox (7.89561pt too wide) in paragraph at lines 11--11
+ [] 
+ []
+
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [7
 
- </Users/akrik/Desktop/aa/lab_02/report/assets/img/d3.jpg>] [8]) [9] [10]
+ </Users/akrik/Desktop/aa/lab_02/report/assets/img/d3.jpg>] [8] [9]) [10]
 \openout2 = `30-impl.aux'.
 
  (/Users/akrik/Desktop/aa/lab_02/report/30-impl.tex
@@ -1120,31 +1126,31 @@ consecutive:
 
 ]) (/Users/akrik/Desktop/aa/lab_02/report/../src/lib/Main.java
 consecutive:
-[12])) [13]
+[12]) [13]) [14]
 \openout2 = `40-research.aux'.
 
  (/Users/akrik/Desktop/aa/lab_02/report/40-research.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-[14
+[15
 
 
 
 
 ]
-<assets/img/time1.png, id=321, 343.2825pt x 260.77425pt>
+<assets/img/time1.png, id=344, 343.2825pt x 260.77425pt>
 File: assets/img/time1.png Graphic file (type png)
 <use assets/img/time1.png>
 Package pdftex.def Info: assets/img/time1.png  used on input line 19.
 (pdftex.def)             Requested size: 449.49907pt x 341.43306pt.
- [15
+ [16
 
  </Users/akrik/Desktop/aa/lab_02/report/assets/img/time1.png>]
-<assets/img/time2.png, id=329, 341.47575pt x 258.36525pt>
+<assets/img/time2.png, id=352, 341.47575pt x 258.36525pt>
 File: assets/img/time2.png Graphic file (type png)
 <use assets/img/time2.png>
 Package pdftex.def Info: assets/img/time2.png  used on input line 21.
 (pdftex.def)             Requested size: 451.29648pt x 341.43306pt.
-) [16
+) [17
 
  </Users/akrik/Desktop/aa/lab_02/report/assets/img/time2.png>]
 \openout2 = `50-conclusion.aux'.
@@ -1154,7 +1160,7 @@ Overfull \hbox (3.08147pt too wide) in paragraph at lines 6--7
 []\T2A/cmr/m/n/14.4 были изу-че-ны и ре-а-ли-зо-ва-ны ал-го-рит-мы пе-ре-мно-же-ния мат-риц: обыч-
  []
 
-) [17
+) [18
 
 
 
@@ -1167,28 +1173,48 @@ Underfull \hbox (badness 1237) in paragraph at lines 28--35
 []\T2A/cmr/m/n/14.4 Погорелов Дмит-рий Алек-сан-дро-вич Та-ра-за-нов Ар-те-мий Ми-хай-ло-
  []
 
-)) [18
+
+Underfull \hbox (badness 1314) in paragraph at lines 38--42
+\T2A/cmr/m/n/14.4 трон-ный ре-сурс].  Ре-жим до-сту-па: []$\T2A/cmtt/m/n/14.4 https : / / docs . microsoft . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+[]\T2A/cmr/m/n/14.4 Процессор Intel\TS1/cmr/m/n/14.4 ® \T2A/cmr/m/n/14.4 Core\TS1/cmr/m/n/14.4 — \T2A/cmr/m/n/14.4 i7-4700HQ [Элек-трон-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+\T2A/cmr/m/n/14.4 ный ре-сурс].  Ре-жим до-сту-па: []$\T2A/cmtt/m/n/14.4 https : / / ark .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+\T2A/cmtt/m/n/14.4 intel . com / content / www / ru / ru / ark / products / 122589 /
+ []
+
+)) [19
 
 
 
 
 ] (/Users/akrik/Desktop/aa/lab_02/report/report.aux (/Users/akrik/Desktop/aa/lab_02/report/00-title.aux) (/Users/akrik/Desktop/aa/lab_02/report/01-contents.aux) (/Users/akrik/Desktop/aa/lab_02/report/02-intro.aux) (/Users/akrik/Desktop/aa/lab_02/report/10-analysis.aux) (/Users/akrik/Desktop/aa/lab_02/report/20-design.aux) (/Users/akrik/Desktop/aa/lab_02/report/30-impl.aux) (/Users/akrik/Desktop/aa/lab_02/report/40-research.aux) (/Users/akrik/Desktop/aa/lab_02/report/50-conclusion.aux) (/Users/akrik/Desktop/aa/lab_02/report/51-biblio.aux))
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 14EC18B04C0F4269208449110C40F3CF;4529.
+(rerunfilecheck)             Checksum: 75E1A4031D034B8602E14963D5D3B42B;5483.
  ) 
 Here is how much of TeX's memory you used:
- 37051 strings out of 478994
- 852978 string characters out of 5858183
- 1585423 words of memory out of 5000000
- 53669 multiletter control sequences out of 15000+600000
+ 37067 strings out of 478994
+ 853222 string characters out of 5858183
+ 1585682 words of memory out of 5000000
+ 53679 multiletter control sequences out of 15000+600000
  420499 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,16n,107p,7946b,2127s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on /Users/akrik/Desktop/aa/lab_02/report/report.pdf (19 pages, 481950 bytes).
+Output written on /Users/akrik/Desktop/aa/lab_02/report/report.pdf (20 pages, 502083 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 148 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
