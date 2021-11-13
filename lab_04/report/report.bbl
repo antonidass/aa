@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Nemirovsky}
+\selectlanguageifdefined{english}
+Mario~Nemirovsky~D. M.~T. Multithreading Architecture~// Morgan and Claypool
+  Publishers.
+\newblock 2013.
+
+\bibitem{Olukotun}
+\selectlanguageifdefined{english}
+Olukotun~K. Chip Multiprocessor Architecture — Techniques to Improve
+  Throughput and Latency~// Morgan and Claypool Publishers.
+\newblock 2007.
+\newblock p.~154.
+
+\bibitem{code}
+\selectlanguageifdefined{russian}
+Documentation for Visual Studio Code [Электронный ресурс].
+\newblock Режим доступа: \url{https://code.visualstudio.com/docs}.
+
+\bibitem{windows}
+\selectlanguageifdefined{russian}
+Клиентская документация по Windows для
+  ИТ-специалистов [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://docs.microsoft.com/ru-ru/windows/resources/}.
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i7-4700HQ [Электронный
+  ресурс].
+\newblock Режим доступа:
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}.
+
+\end{thebibliography}

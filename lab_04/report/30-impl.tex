@@ -1,0 +1,83 @@
+\chapter{Технологическая часть}
+
+В данном разделе приведены средства реализации и листинг алгоритмов.
+
+\section{Средства реализации}
+
+Для разработки ПО был выбран язык Java, поскольку он предоставляет разработчику широкий спектр возможностей и позволяет разрабатывать кроссплатформенные приложени, а также предоставляет большой набор инструментов для работы с многопоточностью. В качестве среды разработки использовалась Visual Studio Code. \cite{code}
+
+\section{Листинг кода}
+
+\begin{lstinputlisting}[
+	caption={Создание и запуск потоков},
+	label={lst:simple1},
+	style={javalang},
+	linerange={13-37}
+]{../src/project/src/main/java/Main.java}
+\end{lstinputlisting}
+
+\begin{lstinputlisting}[
+	caption={Алгоритм поиска простых чисел},
+	label={lst:vino1},
+	style={javalang},
+	linerange={1-30}
+]{../src/project/src/main/java/Prime.java}
+\end{lstinputlisting}
+
+
+\begin{lstinputlisting}[
+	caption={Метод потока поиска простых чисел},
+	label={lst:vino2},
+	style={javalang},
+	linerange={1-30}
+]{../src/project/src/main/java/PrimeNumbersThread.java}
+\end{lstinputlisting}
+
+\section{Тестирование функций}
+
+В таблице~\ref{tabular:test_rec} приведены тесты для функций, реализующих алгоритм поиска простых чисел. Тесты пройдены успешно.
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}}
+			\hline
+			Входное число n &Количество потоков &Ожидаемый результат \\ \hline
+			\vspace{4mm}
+			10
+			&
+			4
+			&
+			$\begin{pmatrix}
+			2 & 3 & 5 & 7 
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			2
+			&
+			1 
+			&
+			2
+			\\
+			\vspace{2mm}
+			\vspace{2mm}
+			20
+			&
+			2
+			&
+			$\begin{pmatrix}
+			2 & 3 & 5 & 7 & 11 & 13 & 17 & 19
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			-100 &
+			4 &
+			Входное число n - некорректно
+		\end{tabular}
+	\end{center}
+	\caption{\label{tabular:test_rec} Тестирование функций}
+\end{table}
+
+
+\section*{Вывод}
+
+Правильный выбор инструментов разработки позволил эффективно реализовать алгоритмы, настроить модульное тестирование и выполнить исследовательский раздел лабораторной работы.

@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -6,5 +6,36 @@
 \ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Levenshtein}
+\selectlanguageifdefined{russian}
+Левенштейн~В.~И. Двоичные коды с
+  исправлением выпадений, вставок и
+  замещений символов.
+\newblock -- М.: Доклады АН СССР, 1965.
+\newblock Т.~163.
+\newblock {С.}~845--848.
+
+\bibitem{java}
+\selectlanguageifdefined{russian}
+Документация по Java [Электронный ресурс].
+\newblock Режим доступа: \url{https://docs.oracle.com/en/java/}.
+
+\bibitem{vscode}
+\selectlanguageifdefined{russian}
+Visual Studio Code.
+\newblock 2005. URL:  https://code.visualstudio.com/.
+
+\bibitem{windows}
+\selectlanguageifdefined{russian}
+Windows.
+\newblock 1985. URL:  https://www.microsoft.com/ru-ru/windows.
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i7-8550U [Электронный
+  ресурс].
+\newblock Режим доступа:
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/122589/intel-core-i7-8550u-processor-8m-cache-up-to-4-00-ghz.html}.
 
 \end{thebibliography}

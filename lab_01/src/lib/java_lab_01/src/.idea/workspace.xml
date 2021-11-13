@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5e4a052-f636-475f-9b24-81938e7dd993" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/lab_2_realizatin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/02-intro.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/02-intro.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/02-intro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/02-intro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/10-analysis.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/10-analysis.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/10-analysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/10-analysis.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/20-design.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/20-design.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/20-design.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/20-design.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/30-impl.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/30-impl.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/30-impl.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/30-impl.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/51-biblio.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/51-biblio.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/51-biblio.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/51-biblio.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/51-biblio.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/51-biblio.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/preamble.inc.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/preamble.inc.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.blg" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.fdb_latexmk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.fls" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.fls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_01/report/report.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_01/report/report.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_02/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_02/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_02/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/30-impl.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/30-impl.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/40-research.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/50-conclusion.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/51-biblio.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/preamble.inc.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/preamble.inc.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.bbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.blg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.fdb_latexmk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.fls" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.fls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/report/report.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/report/report.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/src/lib/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/src/lib/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/src/lib/choice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/src/lib/choice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/src/lib/insert.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/src/lib/insert.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/src/lib/quick.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/src/lib/quick.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_03/src/lib/sorts.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_03/src/lib/sorts.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_2_realizatin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab_2_realizatin/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab_2_realizatin/src/main/java/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="20af1L6kk62LJ3aXXZdqHMF5FA2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5e4a052-f636-475f-9b24-81938e7dd993" name="Changes" comment="" />
+      <created>1636287402426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636287402426</updated>
+      <workItem from="1636287403664" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

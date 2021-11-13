@@ -6,7 +6,7 @@ public class Main {
     public static long n = 5000000;
     public static long array[];
     public static int sum = 0;
-    public static final int N = 1;
+    public static final int N = 4;
     public static List<List<Long>> primeNumsArray = new ArrayList<>();
     public static List<List<Long>> times = new ArrayList(10);
 

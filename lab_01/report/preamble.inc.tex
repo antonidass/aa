@@ -40,7 +40,6 @@
 \usepackage{xcolor}
 
 \lstdefinestyle{java}{
-	%language=Rust,
 	backgroundcolor=\color{white},
 	basicstyle=\footnotesize\ttfamily,
 	keywordstyle=\color{blue},
@@ -60,6 +59,10 @@
 	morecomment=[l][\color{magenta}]{\#},
 	columns=fullflexible
 }
+
+% Листинг слева
+\DeclareCaptionFormat{listing}{\rule{\dimexpr\textwidth+17pt\relax}{0.4pt}\vskip1pt#1#2#3}
+\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
 
 
 \usepackage{pgfplots}
@@ -88,5 +91,7 @@
 \hypersetup{hidelinks}
 
 \usepackage{csvsimple}
+
+\usepackage{icomma}
 
 \newcommand{\code}[1]{\texttt{#1}}

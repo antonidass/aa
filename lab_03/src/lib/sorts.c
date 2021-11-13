@@ -89,7 +89,7 @@ void choice_sort(int *arr, int n)
         for (int j = i + 1; j < n; j++)
             if (arr[min_pos] > arr[j])
                 min_pos = j;
-
+    
         tmp = arr[min_pos];
         arr[min_pos] = arr[i];
         arr[i] = tmp;
@@ -181,6 +181,27 @@ int main()
     FILE *file2 = fopen("insert.txt", "w");
     count_times(file2, count_time_insertion_sort);
     fclose(file2);
+
+    printf("Input size of array : ");
+    int n;
+    scanf("%d", &n);
+
+    int *arr = input_array(n);
+
+    printf("Choice sort : \n1 - quick\n2 - insertion\n3 - choice\n");
+    int choice;
+    scanf("%d", &choice);
+
+    if (choice == 1) {
+        quick_sort(arr, 0, n - 1);
+    } else if (choice == 2) {
+        insertion_sort(n, arr);
+    } else {
+        choice_sort(arr, n);
+    }
+
+    print_array(arr, &n);
+    free(arr);
 
     return 0;
 }
