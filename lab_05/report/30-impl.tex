@@ -1,0 +1,91 @@
+\chapter{Технологическая часть}
+
+В данном разделе приведены средства реализации и листинг алгоритмов.
+
+\section{Средства реализации}
+
+Для разработки ПО был выбран язык Java, поскольку он предоставляет разработчику широкий спектр возможностей и позволяет разрабатывать кроссплатформенные приложени, а также предоставляет большой набор инструментов для работы с многопоточностью. В качестве среды разработки использовалась Visual Studio Code. \cite{code}
+
+\section{Листинг кода}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация первого уровня конвейера},
+	label={lst:first},
+	style={javalang},
+	linerange={2-25}
+]{../src/ConveyorStages.java}
+\end{lstinputlisting}
+
+
+
+\begin{lstinputlisting}[
+	caption={Реализация второго уровня конвейера},
+	label={lst:second},
+	style={javalang},
+	linerange={26-49}
+]{../src/ConveyorStages.java}
+\end{lstinputlisting}
+
+\begin{lstinputlisting}[
+	caption={Реализация третьего уровня конвейера},
+	label={lst:third},
+	style={javalang},
+	linerange={51-75}
+]{../src/ConveyorStages.java}
+\end{lstinputlisting}
+
+\begin{lstinputlisting}[
+	caption={Реализация главного рабочего процесса},
+	label={lst:main},
+	style={javalang},
+	linerange={51-92}
+]{../src/Main.java}
+\end{lstinputlisting}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация алгоритма кодирования строки},
+	label={lst:log},
+	style={javalang},
+	linerange={2-41}
+]{../src/Encryption.java}
+\end{lstinputlisting}
+
+
+
+
+
+\section{Тестирование функций}
+
+В таблице~\ref{tabular:test_rec} приведены тесты для функций, реализующих алгоритм кодирования строки. Тесты пройдены успешно.
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}}
+			\hline
+			Количество строк &Исходные строки &Ожидаемый результат \\ \hline
+			\vspace{4mm}
+			2
+			&
+			$\begin{pmatrix}
+				abd & bcv 
+			\end{pmatrix}$ 
+			&
+			$\begin{pmatrix}
+			  cbe & cdw
+			\end{pmatrix}$ \\
+			\vspace{2mm}
+			\vspace{2mm}
+			-100 &
+			abcdeijfladkk &
+			Некорректное количество строк
+		\end{tabular}
+	\end{center}
+	\caption{\label{tabular:test_rec} Тестирование функций}
+\end{table}
+
+ 
+\section*{Вывод}
+
+Правильный выбор инструментов разработки позволил эффективно реализовать алгоритмы, настроить модульное тестирование и выполнить исследовательский раздел лабораторной работы.
