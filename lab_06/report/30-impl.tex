@@ -1,0 +1,71 @@
+\chapter{Технологическая часть}
+
+В данном разделе приведены средства реализации и листинг алгоритмов.
+
+\section{Средства реализации}
+
+Для разработки ПО был выбран язык Java, поскольку он предоставляет разработчику широкий спектр возможностей и позволяет разрабатывать кроссплатформенные приложени, а также предоставляет большой набор инструментов для работы с многопоточностью. В качестве среды разработки использовалась Visual Studio Code. \cite{code}
+
+\section{Листинг кода}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация алгоритма полного перебора},
+	label={lst:first},
+	style={javalang},
+	linerange={6-48}
+]{../src/Brute.java}
+\end{lstinputlisting}
+
+
+
+\begin{lstinputlisting}[
+	caption={Реализация муравьиного алгоритма},
+	label={lst:second},
+	style={javalang},
+	linerange={9-173}
+]{../src/Ant.java}
+\end{lstinputlisting}
+
+
+\section{Тестирование функций}
+
+В таблице~\ref{tabular:test_rec} приведены тесты для функций, реализующих алгоритм кодирования строки. Тесты пройдены успешно.
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}c@{\hspace{7mm}}}
+			\hline
+			Количество городов & Матрица расстояний & Ожидаемый результат \\ \hline
+			\vspace{4mm}
+			4
+			&
+			$\begin{pmatrix}
+				0 & 10 & 15 & 20 \\ 
+				10 & 0 & 35 & 25 \\
+				15 & 35 & 0 & 30 \\
+				20 & 25 & 30 & 0 
+			\end{pmatrix}$ 
+			&
+				80
+				\\
+			\vspace{2mm}
+			\vspace{2mm}
+			4 &
+			$\begin{pmatrix}
+				0 & 8 & 9 & 7 \\ 
+				8 & 0 & 4 & 4 \\
+				9 & 4 & 0 & 2 \\
+				7 & 4 & 2 & 0
+			\end{pmatrix}$ 
+			&
+			21
+		\end{tabular}
+	\end{center}
+	\caption{\label{tabular:test_rec} Тестирование функций}
+\end{table}
+
+ 
+\section*{Вывод}
+
+Правильный выбор инструментов разработки позволил эффективно реализовать алгоритмы и выполнить исследовательский раздел лабораторной работы.
