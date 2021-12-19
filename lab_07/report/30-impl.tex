@@ -1,0 +1,60 @@
+\chapter{Технологическая часть}
+
+В данном разделе приведены средства реализации и листинг алгоритмов.
+
+\section{Средства реализации}
+
+Для разработки ПО был выбран язык Java, поскольку он предоставляет разработчику широкий спектр возможностей и позволяет разрабатывать кроссплатформенные приложени, а также предоставляет большой набор инструментов для работы с многопоточностью. В качестве среды разработки использовалась Visual Studio Code. \cite{code}
+
+\section{Листинг кода}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация алгоритма поиска полным перебором},
+	label={lst:first},
+	style={javalang},
+	linerange={1-15}
+]{../src/Brute.java}
+\end{lstinputlisting}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация бинарного поиска},
+	label={lst:second},
+	style={javalang},
+	linerange={1-26}
+]{../src/Binary.java}
+\end{lstinputlisting}
+
+
+\begin{lstinputlisting}[
+	caption={Реализация поиска с ипользованием частотного анализа},
+	label={lst:second},
+	style={javalang},
+	linerange={1-60}
+]{../src/Frequency.java}
+\end{lstinputlisting}
+
+
+\section{Тестирование функций}
+
+В таблице~\ref{tab:tests} приведены тесты для функций, реализующих алгоритмы поиска в словаре. Тесты пройдены успешно.
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{|c | c | c | c |}
+            \hline
+            Ключ & Словарь & Ожидание & Результат \\
+            \hline
+            abc & \texttt{\{car: "abc"\,, desc: "small" \}} & "small" & "small" \\
+            cde & \texttt{\{car: "bva"\,, desc: "big" \}} & \text{NOT\_FOUND} & \text{NOT\_FOUND} \\
+            vvv & \texttt{\{\}} & \text{NOT\_FOUND} & \text{NOT\_FOUND} \\
+            \hline
+		\end{tabular}
+	\end{center}
+	\caption{\label{tab:tests} Тестирование функций.}
+\end{table}
+ 
+\section*{Вывод}
+
+Правильный выбор инструментов разработки позволил эффективно реализовать алгоритмы и выполнить исследовательский раздел лабораторной работы.

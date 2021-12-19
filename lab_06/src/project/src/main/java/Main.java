@@ -10,12 +10,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<ArrayList<Integer>> matrix = IO.getData("data2.txt");
-//        IO.printMatrix(matrix);
-
-
 
         Brute.bruteForce(matrix);
-
 
         int[] alphas = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         double[] qs = new double[]{0.1, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.75, 0.8, 0.9};
@@ -30,8 +26,7 @@ public class Main {
             }
         }
         fileWriter.close();
-
-
-        System.out.println("MIN = " + Ant.LMIN);
+        System.out.println("ant min route = " + Ant.LMIN);
+        IO.printArray(Ant.routeMin);
     }
 }

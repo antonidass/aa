@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Brute {
     private static ArrayList<ArrayList<Integer>> dists;
+    private static ArrayList<Integer> routeMin;
 
     public static void swap(ArrayList<Integer> list, int i, int j) {
         int t = list.get(i);
@@ -27,6 +28,8 @@ public class Brute {
 
     public static void bruteForce(ArrayList<ArrayList<Integer>> matrix) {
         dists = new ArrayList<>();
+        routeMin = new ArrayList<>();
+
         ArrayList<Integer> temp = new ArrayList<>();
         for (int i = 0; i < matrix.size(); i++) {
             temp.add(i);
@@ -42,8 +45,13 @@ public class Brute {
             }
 
             if (d < minCost) {
+                routeMin = dists.get(i);
                 minCost = d;
             }
         }
+
+        System.out.println("brute min route = " + (minCost));
+        routeMin.add(routeMin.get(0));
+        IO.printArray(routeMin);
     }
 }

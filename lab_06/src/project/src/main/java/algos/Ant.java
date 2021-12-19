@@ -31,7 +31,7 @@ public class Ant {
         int from;
         double coin, sum;
         boolean flag;
-
+        // choose next city
         for (int i = 0; i < n_1; i++) {
             sum = 0;
             flag = true;
@@ -58,6 +58,8 @@ public class Ant {
     }
 
 
+    // tao - количество феромонов
+    // величина обратная расстоянию (близость) attraction
     public static ArrayList<Double> getProbability(int from, ArrayList<Integer> to, ArrayList<ArrayList<Double>> tao, ArrayList<ArrayList<Double>> attraction, int alpha, int beta) {
         double znam = 0.0, chisl = 0.0;
         int n = to.size();
@@ -85,7 +87,6 @@ public class Ant {
                 res = true;
             }
         }
-
         return res;
     }
 
@@ -96,7 +97,7 @@ public class Ant {
 
         double taoMin, taoStart, Q;
         ArrayList<Integer> all = new ArrayList<>(size);
-        Q = 350.0;
+        Q = 350.0; // количество феромона которое переносит муравей
         taoMin = 0.001;
         taoStart = 0.5;
 
@@ -142,6 +143,8 @@ public class Ant {
                     routeMin = routes.get(k);
                 }
             }
+
+            // update feromon
             for (int i = 0; i < size; i++) {
                 for (int j = 0; j < size; j++) {
                     double sum = 0.0;
@@ -150,7 +153,7 @@ public class Ant {
                             sum += Q / lens.get(m);
                         }
                     }
-
+                    // q - доля феромона которая испаряется
                     tao.get(i).set(j, tao.get(i).get(j) * (1 - q) + sum);
                     if (tao.get(i).get(j) < taoMin) {
                         tao.get(i).set(j, taoMin);
